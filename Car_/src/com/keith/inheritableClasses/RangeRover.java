@@ -23,4 +23,9 @@ public class RangeRover extends Car {
         System.out.println("-------------------------");
         System.out.println("Steppers extracted successfully");
     }
+
+    @Override
+    public String getCarBuild() {
+        return this.getBuild().toString();
+    }
 }

@@ -1,10 +1,11 @@
 package com.keith.inheritableClasses;
 
-public class Car {
+abstract class Car {
     private String type;
     private String name;
     private String number_plate;
     private int max_speed;
+
 
     //Constructor
     Car(String type, String name, int max_speed){
@@ -57,4 +58,7 @@ public class Car {
         int time = distance / this.getMax_speed();
         return time;
     }
+
+    abstract String getCarBuild();
+
 }
