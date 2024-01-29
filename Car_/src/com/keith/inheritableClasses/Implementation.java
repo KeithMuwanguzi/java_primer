@@ -16,7 +16,7 @@ public class Implementation {
 
         cars[1] = secondCar;
 
-        for(int i = 0;i <= cars.length;i++){
+        for(int i = 0;i < cars.length;i++){
             System.out.println(cars[i].getName()+ " "+cars[i].getBuild());
             System.out.println(cars[i].getNumber_plate());
         }
