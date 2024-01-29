@@ -5,6 +5,7 @@ public class Implementation {
     static RangeRover[] cars;
 
     public static void main(String[] args) {
+        cars = new RangeRover[2];
         RangeRover firstCar = new RangeRover("SUV","RangeRover",270,RangeRoverBuild.SPORT);
         firstCar.setNumber_plate("UBY 001A");
 
